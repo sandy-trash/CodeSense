@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="cs" time="166" tests="0" failures="1" errors="0">
+   <testsuite name="cs" tests="0" failures="1" errors="0" time="166" timestamp="2018-12-05 12:46:15" hostname="ssengupta064 - ssengupta06486.us.nam.ad.pwcinternal.com" id="Test Suites/cs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ssengupta064\\git\\Project\\Reports\\cs\\20181205_124557"/>
+         <property name="logFiles" value="C:\\Users\\ssengupta064\\git\\Project\\Reports\\cs\\20181205_124557\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ssengupta064\\git\\Project\\Reports\\cs\\20181205_124557\\C:/Users/ssengupta064/Desktop/ss/Chile.png, C:\\Users\\ssengupta064\\git\\Project\\Reports\\cs\\20181205_124557\\1543994322525.png"/>
+         <property name="hostName" value="ssengupta064 - ssengupta06486.us.nam.ad.pwcinternal.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Firefox 63.0"/>
+         <property name="hostAddress" value="172.16.122.250"/>
+         <property name="sessionId" value="f3305320-4c65-4ac9-af1c-bcc38f7535ab"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/screenshot" classname="Test Cases/screenshot" status="FAILED">
+         <failure type="FAILED" message="Test Cases/screenshot FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' located by 'By.xpath: //div[@id='mw-content-text']/div/table/tbody/tr[3]/td' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at screenshot.run(screenshot:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543994157265.run(TempTestSuite1543994157265.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-05 12:46:16 - [TEST_CASE][FAILED] - Test Cases/screenshot: Test Cases/screenshot FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' located by 'By.xpath: //div[@id='mw-content-text']/div/table/tbody/tr[3]/td' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at screenshot.run(screenshot:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543994157265.run(TempTestSuite1543994157265.groovy:36)
+
+
+2018-12-05 12:46:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/Country")): Send request successfully
+
+2018-12-05 12:46:33 - [MESSAGE][INFO] - HAR: C:\Users\ssengupta064\git\Project\Reports\cs\20181205_124557\requests\main\0.har
+
+2018-12-05 12:46:33 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-05 12:46:33 - [TEST_STEP][PASSED] - list = JsonSlurper().parseText(response.getResponseText()): null
+
+2018-12-05 12:46:34 - [TEST_STEP][PASSED] - countries = new java.util.ArrayList(): null
+
+2018-12-05 12:46:34 - [TEST_STEP][PASSED] - names = name: null
+
+2018-12-05 12:46:34 - [TEST_STEP][PASSED] - names.each({ -> ... }): null
+
+2018-12-05 12:46:34 - [TEST_STEP][PASSED] - countries.each({ -> ... }): null
+
+2018-12-05 12:46:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-05 12:46:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2018-12-05 12:46:36 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-05 12:47:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-05 12:47:21 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2018-12-05 12:47:21 - [TEST_STEP][PASSED] - i = 0: null
+
+2018-12-05 12:47:21 - [TEST_STEP][PASSED] - country = "": null
+
+2018-12-05 12:47:21 - [TEST_STEP][FAILED] - while ((i++) < 5): while ((i++) < 5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' located by 'By.xpath: //div[@id='mw-content-text']/div/table/tbody/tr[3]/td' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at screenshot.run(screenshot:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543994157265.run(TempTestSuite1543994157265.groovy:36)
+
+
+2018-12-05 12:47:21 - [TEST_STEP][PASSED] - randomIdx = rand.nextInt(countries.size()): null
+
+2018-12-05 12:47:21 - [TEST_STEP][PASSED] - country = countries.get(randomIdx): null
+
+2018-12-05 12:47:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/maps/@12.952476,77.647874,15z"): Navigate to 'https://www.google.com/maps/@12.952476,77.647874,15z' successfully
+
+2018-12-05 12:47:29 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/maps/@12.952476,77.647874,15z' successfully
+
+2018-12-05 12:47:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/sh1/Page_Google Maps/input_India_q"), country): Text 'Chile' is set on object 'Object Repository/sh1/Page_Google Maps/input_India_q'
+
+2018-12-05 12:47:29 - [MESSAGE][PASSED] - Text 'Chile' is set on object 'Object Repository/sh1/Page_Google Maps/input_India_q'
+
+2018-12-05 12:47:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb")): Object: 'Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb' is clicked on
+
+2018-12-05 12:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb' is clicked on
+
+2018-12-05 12:47:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_India - Google Maps/button_Directions")): Object: 'Object Repository/sh1/Page_India - Google Maps/button_Directions' is clicked on
+
+2018-12-05 12:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_India - Google Maps/button_Directions' is clicked on
+
+2018-12-05 12:48:03 - [TEST_STEP][PASSED] - takeScreenshot("C:/Users/ssengupta064/Desktop/ss/" + country + ".png"): Taking screenshot successfully
+
+2018-12-05 12:48:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ssengupta064\\git\\Project\\Reports\\cs\\20181205_124557\\C:/Users/ssengupta064/Desktop/ss/Chile.png]]
+
+2018-12-05 12:48:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_Google Maps/button_See travel times traffi")): Object: 'Object Repository/sh1/Page_Google Maps/button_See travel times traffi' is clicked on
+
+2018-12-05 12:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_Google Maps/button_See travel times traffi' is clicked on
+
+2018-12-05 12:48:05 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wikipedia.org/"): Navigate to 'https://www.wikipedia.org/' successfully
+
+2018-12-05 12:48:08 - [MESSAGE][PASSED] - Navigate to 'https://www.wikipedia.org/' successfully
+
+2018-12-05 12:48:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Wikipedia/input_Search Wikipedia_search"), country + " population"): Text 'Chile population' is set on object 'Object Repository/Page_Wikipedia/input_Search Wikipedia_search'
+
+2018-12-05 12:48:08 - [MESSAGE][PASSED] - Text 'Chile population' is set on object 'Object Repository/Page_Wikipedia/input_Search Wikipedia_search'
+
+2018-12-05 12:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Wikipedia/button_Search")): Object: 'Object Repository/Page_Wikipedia/button_Search' is clicked on
+
+2018-12-05 12:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Wikipedia/button_Search' is clicked on
+
+2018-12-05 12:48:11 - [TEST_STEP][FAILED] - if (getText(findTestObject("Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1")) != null): while ((i++) < 5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' located by 'By.xpath: //div[@id='mw-content-text']/div/table/tbody/tr[3]/td' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at screenshot.run(screenshot:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543994157265.run(TempTestSuite1543994157265.groovy:36)
+
+
+2018-12-05 12:48:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='mw-content-text']/div/table/tbody/tr[3]/td'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-05 12:48:42 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' located by 'By.xpath: //div[@id='mw-content-text']/div/table/tbody/tr[3]/td' not found)
+[[ATTACHMENT|C:\\Users\\ssengupta064\\git\\Project\\Reports\\cs\\20181205_124557\\1543994322525.png]]
+
+2018-12-05 12:48:42 - [MESSAGE][FAILED] - while ((i++) < 5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' located by 'By.xpath: //div[@id='mw-content-text']/div/table/tbody/tr[3]/td' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at screenshot.run(screenshot:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543994157265.run(TempTestSuite1543994157265.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-05 12:46:16 - [TEST_CASE][FAILED] - Test Cases/screenshot: Test Cases/screenshot FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' located by 'By.xpath: //div[@id='mw-content-text']/div/table/tbody/tr[3]/td' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at screenshot.run(screenshot:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543994157265.run(TempTestSuite1543994157265.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-05 12:46:15 - [TEST_SUITE][FAILED] - cs: Test Cases/screenshot FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' located by 'By.xpath: //div[@id='mw-content-text']/div/table/tbody/tr[3]/td' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at screenshot.run(screenshot:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543994157265.run(TempTestSuite1543994157265.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-05 12:46:15 - [TEST_SUITE][FAILED] - cs: Test Cases/screenshot FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1' located by 'By.xpath: //div[@id='mw-content-text']/div/table/tbody/tr[3]/td' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$4.call(Unknown Source)
+	at screenshot.run(screenshot:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1543994157265.run(TempTestSuite1543994157265.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

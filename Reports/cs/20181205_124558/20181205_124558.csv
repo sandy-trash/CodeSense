@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+cs,Firefox 63.0,,2018-12-05 12:46:39,2018-12-05 12:48:46,2m - 7.268s,FAILED
+,,,,,,
+Test Cases/screenshot,Firefox 63.0,,2018-12-05 12:46:41,2018-12-05 12:48:41,1m - 59.890s,FAILED
+"response = sendRequest(findTestObject(""Object Repository/Country""))",Firefox 63.0,,2018-12-05 12:46:43,2018-12-05 12:46:53,9.696s,PASSED
+list = JsonSlurper().parseText(response.getResponseText()),Firefox 63.0,,2018-12-05 12:46:53,2018-12-05 12:46:53,0.297s,PASSED
+countries = new java.util.ArrayList(),Firefox 63.0,list.each{println it},2018-12-05 12:46:53,2018-12-05 12:46:53,0.003s,PASSED
+names = name,Firefox 63.0,,2018-12-05 12:46:53,2018-12-05 12:46:53,0.022s,PASSED
+names.each({ -> ... }),Firefox 63.0,,2018-12-05 12:46:53,2018-12-05 12:46:53,0.019s,PASSED
+countries.each({ -> ... }),Firefox 63.0,,2018-12-05 12:46:53,2018-12-05 12:46:53,0.171s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-05 12:46:53,2018-12-05 12:47:30,36.304s,PASSED
+rand = new java.util.Random(),Firefox 63.0,,2018-12-05 12:47:30,2018-12-05 12:47:30,0.009s,PASSED
+i = 0,Firefox 63.0,,2018-12-05 12:47:30,2018-12-05 12:47:30,0.001s,PASSED
+"country = """"",Firefox 63.0,,2018-12-05 12:47:30,2018-12-05 12:47:30,0.003s,PASSED
+while ((i++) < 5),Firefox 63.0,,2018-12-05 12:47:30,2018-12-05 12:48:41,1m - 11.021s,FAILED

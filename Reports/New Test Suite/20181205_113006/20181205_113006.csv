@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 63.0,,2018-12-05 11:30:13,2018-12-05 11:33:56,3m - 43.115s,FAILED
+,,,,,,
+Test Cases/TestCaseWikipedia,Firefox 63.0,,2018-12-05 11:30:14,2018-12-05 11:31:03,49.469s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-05 11:30:15,2018-12-05 11:30:45,30.263s,PASSED
+"navigateToUrl(""https://www.wikipedia.org/"")",Firefox 63.0,,2018-12-05 11:30:45,2018-12-05 11:30:48,2.960s,PASSED
+"setText(findTestObject(""Page_Wikipedia/input_Search Wikipedia_search""), ""India population"")",Firefox 63.0,,2018-12-05 11:30:48,2018-12-05 11:30:49,0.385s,PASSED
+"click(findTestObject(""Page_Wikipedia/button_Search""))",Firefox 63.0,,2018-12-05 11:30:49,2018-12-05 11:31:02,13.510s,PASSED
+"text = getText(findTestObject(""Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1""))",Firefox 63.0,,2018-12-05 11:31:02,2018-12-05 11:31:03,0.829s,PASSED
+,,,,,,
+Test Cases/TestCaseWorldMap,Firefox 63.0,,2018-12-05 11:31:03,2018-12-05 11:32:44,1m - 40.452s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-05 11:31:04,2018-12-05 11:31:26,22.395s,PASSED
+"navigateToUrl(""http://www.worldometers.info/"")",Firefox 63.0,,2018-12-05 11:31:26,2018-12-05 11:31:51,24.537s,PASSED
+"click(findTestObject(""Page_Worldometers - real time world/a_Population""))",Firefox 63.0,,2018-12-05 11:31:51,2018-12-05 11:32:11,20.597s,PASSED
+"click(findTestObject(""Page_Population - Worldometers/strong_Population by Country""))",Firefox 63.0,,2018-12-05 11:32:11,2018-12-05 11:32:43,31.055s,PASSED
+"click(findTestObject(""Page_Population by Country (2018) -/td_India""))",Firefox 63.0,,2018-12-05 11:32:43,2018-12-05 11:32:43,0.842s,PASSED
+"text = getText(findTestObject(""Page_Population by Country (2018) -/td_1354051854""))",Firefox 63.0,,2018-12-05 11:32:43,2018-12-05 11:32:44,0.214s,PASSED
+,,,,,,
+Test Cases/TestCaseGoogle,Firefox 63.0,,2018-12-05 11:32:44,2018-12-05 11:33:51,1m - 7.733s,FAILED
+"openBrowser("""")",Firefox 63.0,,2018-12-05 11:32:44,2018-12-05 11:33:45,1m - 0.851s,PASSED
+"navigateToUrl(""https://www.google.com/?gws_rd=ssl"")",Firefox 63.0,,2018-12-05 11:33:45,2018-12-05 11:33:51,5.278s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input_Sign in_q""), ""India population"")",Firefox 63.0,,2018-12-05 11:33:51,2018-12-05 11:33:51,0.292s,PASSED
+"waitForElementPresent(findTestObject(""Page_Google/input_Remove_btnK""), 30)",Firefox 63.0,,2018-12-05 11:33:51,2018-12-05 11:33:51,0.072s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_Google/input_Remove_btnK""))",Firefox 63.0,,2018-12-05 11:33:51,2018-12-05 11:33:51,0.309s,FAILED

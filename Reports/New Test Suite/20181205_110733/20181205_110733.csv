@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 63.0,,2018-12-05 11:07:38,2018-12-05 11:09:35,1m - 57.265s,FAILED
+,,,,,,
+Test Cases/TestCaseGoogle,Firefox 63.0,,2018-12-05 11:07:38,2018-12-05 11:07:54,15.269s,FAILED
+"openBrowser("""")",Firefox 63.0,,2018-12-05 11:07:39,2018-12-05 11:07:47,7.904s,PASSED
+"navigateToUrl(""https://www.google.com/?gws_rd=ssl"")",Firefox 63.0,,2018-12-05 11:07:47,2018-12-05 11:07:52,5.489s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input_Sign in_q""), ""India population"")",Firefox 63.0,,2018-12-05 11:07:52,2018-12-05 11:07:53,0.397s,PASSED
+waitForPageLoad(30),Firefox 63.0,,2018-12-05 11:07:53,2018-12-05 11:07:53,0.130s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/input_Remove_btnK""))",Firefox 63.0,,2018-12-05 11:07:53,2018-12-05 11:07:53,0.410s,FAILED
+,,,,,,
+Test Cases/TestCaseWikipedia,Firefox 63.0,,2018-12-05 11:07:54,2018-12-05 11:08:12,18.645s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-05 11:07:54,2018-12-05 11:08:05,11.325s,PASSED
+"navigateToUrl(""https://www.wikipedia.org/"")",Firefox 63.0,,2018-12-05 11:08:05,2018-12-05 11:08:07,1.959s,PASSED
+"setText(findTestObject(""Page_Wikipedia/input_Search Wikipedia_search""), ""India population"")",Firefox 63.0,,2018-12-05 11:08:07,2018-12-05 11:08:07,0.107s,PASSED
+"click(findTestObject(""Page_Wikipedia/button_Search""))",Firefox 63.0,,2018-12-05 11:08:07,2018-12-05 11:08:12,4.607s,PASSED
+"text = getText(findTestObject(""Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1""))",Firefox 63.0,,2018-12-05 11:08:12,2018-12-05 11:08:12,0.183s,PASSED
+,,,,,,
+Test Cases/TestCaseWorldMap,Firefox 63.0,,2018-12-05 11:08:12,2018-12-05 11:09:26,1m - 13.794s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-05 11:08:13,2018-12-05 11:08:23,10.209s,PASSED
+"navigateToUrl(""http://www.worldometers.info/"")",Firefox 63.0,,2018-12-05 11:08:23,2018-12-05 11:08:43,20.011s,PASSED
+"click(findTestObject(""Page_Worldometers - real time world/a_Population""))",Firefox 63.0,,2018-12-05 11:08:43,2018-12-05 11:09:04,20.696s,PASSED
+"click(findTestObject(""Page_Population - Worldometers/strong_Population by Country""))",Firefox 63.0,,2018-12-05 11:09:04,2018-12-05 11:09:25,21.807s,PASSED
+"click(findTestObject(""Page_Population by Country (2018) -/td_India""))",Firefox 63.0,,2018-12-05 11:09:25,2018-12-05 11:09:26,0.512s,PASSED
+"text = getText(findTestObject(""Page_Population by Country (2018) -/td_1354051854""))",Firefox 63.0,,2018-12-05 11:09:26,2018-12-05 11:09:26,0.091s,PASSED

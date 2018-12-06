@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="22" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="22" timestamp="2018-12-05 11:06:53" hostname="ssengupta064 - ssengupta06486.us.nam.ad.pwcinternal.com" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ssengupta064\\git\\Project\\Reports\\New Test Suite\\20181205_110648"/>
+         <property name="logFiles" value="C:\\Users\\ssengupta064\\git\\Project\\Reports\\New Test Suite\\20181205_110648\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ssengupta064 - ssengupta06486.us.nam.ad.pwcinternal.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Firefox 63.0"/>
+         <property name="hostAddress" value="172.16.122.250"/>
+         <property name="sessionId" value="cbedfab0-23f8-4c2b-9231-f1516bd91ab9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCaseGoogle" classname="Test Cases/TestCaseGoogle" status="PASSED">
+         <system-out><![CDATA[2018-12-05 11:06:53 - [TEST_CASE][PASSED] - Test Cases/TestCaseGoogle: Test Cases/TestCaseGoogle
+
+2018-12-05 11:06:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-05 11:06:54 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2018-12-05 11:06:54 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-05 11:07:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-05 11:07:02 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/?gws_rd=ssl"): Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2018-12-05 11:07:07 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2018-12-05 11:07:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Google/input_Sign in_q"), "India population"): Text 'India population' is set on object 'Object Repository/Page_Google/input_Sign in_q'
+
+2018-12-05 11:07:08 - [MESSAGE][PASSED] - Text 'India population' is set on object 'Object Repository/Page_Google/input_Sign in_q'
+
+2018-12-05 11:07:08 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2018-12-05 11:07:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-05 11:07:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Google/input_Remove_btnK")): Object: 'Object Repository/Page_Google/input_Remove_btnK' is clicked on
+
+2018-12-05 11:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/input_Remove_btnK' is clicked on
+
+2018-12-05 11:07:12 - [TEST_STEP][PASSED] - text = getText(findTestObject("Object Repository/Page_India population - Google Sear/div_133.92 crores (2017)")): Text of object 'Object Repository/Page_India population - Google Sear/div_133.92 crores (2017)' is: '133.92 crores (2017)'
+
+2018-12-05 11:07:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_India population - Google Sear/div_133.92 crores (2017)' is: '133.92 crores (2017)']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-05 11:06:53 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/TestCaseGoogle]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 63.0,,2018-12-05 11:27:46,2018-12-05 11:29:50,2m - 3.735s,PASSED
+,,,,,,
+Test Cases/TestCaseWikipedia,Firefox 63.0,,2018-12-05 11:27:47,2018-12-05 11:28:32,45.351s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-05 11:27:49,2018-12-05 11:28:23,34.144s,PASSED
+"navigateToUrl(""https://www.wikipedia.org/"")",Firefox 63.0,,2018-12-05 11:28:23,2018-12-05 11:28:25,2.245s,PASSED
+"setText(findTestObject(""Page_Wikipedia/input_Search Wikipedia_search""), ""India population"")",Firefox 63.0,,2018-12-05 11:28:25,2018-12-05 11:28:26,0.588s,PASSED
+"click(findTestObject(""Page_Wikipedia/button_Search""))",Firefox 63.0,,2018-12-05 11:28:26,2018-12-05 11:28:32,6.025s,PASSED
+"text = getText(findTestObject(""Page_Demographics of India - Wikipe/td_1324171354 (2016 est.)1""))",Firefox 63.0,,2018-12-05 11:28:32,2018-12-05 11:28:32,0.762s,PASSED
+,,,,,,
+Test Cases/TestCaseGoogle,Firefox 63.0,,2018-12-05 11:28:32,2018-12-05 11:29:10,38.012s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-05 11:28:33,2018-12-05 11:29:02,28.801s,PASSED
+"navigateToUrl(""https://www.google.com/?gws_rd=ssl"")",Firefox 63.0,,2018-12-05 11:29:02,2018-12-05 11:29:07,5.284s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input_Sign in_q""), ""India population"")",Firefox 63.0,,2018-12-05 11:29:07,2018-12-05 11:29:08,0.356s,PASSED
+"waitForElementPresent(findTestObject(""Page_Google/input_Remove_btnK""), 30)",Firefox 63.0,,2018-12-05 11:29:08,2018-12-05 11:29:08,0.292s,PASSED
+"doubleClick(findTestObject(""Object Repository/Page_Google/input_Remove_btnK""))",Firefox 63.0,,2018-12-05 11:29:08,2018-12-05 11:29:08,0.515s,PASSED
+waitForPageLoad(30),Firefox 63.0,,2018-12-05 11:29:08,2018-12-05 11:29:08,0.073s,PASSED
+"text = getText(findTestObject(""Object Repository/Page_India population - Google Sear/div_133.92 crores (2017)""))",Firefox 63.0,,2018-12-05 11:29:08,2018-12-05 11:29:10,1.991s,PASSED

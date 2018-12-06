@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 63.0,,2018-12-05 11:06:53,2018-12-05 11:07:15,22.745s,PASSED
+,,,,,,
+Test Cases/TestCaseGoogle,Firefox 63.0,,2018-12-05 11:06:53,2018-12-05 11:07:12,18.761s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-05 11:06:54,2018-12-05 11:07:02,8.379s,PASSED
+"navigateToUrl(""https://www.google.com/?gws_rd=ssl"")",Firefox 63.0,,2018-12-05 11:07:02,2018-12-05 11:07:07,5.350s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input_Sign in_q""), ""India population"")",Firefox 63.0,,2018-12-05 11:07:07,2018-12-05 11:07:08,0.382s,PASSED
+waitForPageLoad(30),Firefox 63.0,,2018-12-05 11:07:08,2018-12-05 11:07:08,0.391s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/input_Remove_btnK""))",Firefox 63.0,,2018-12-05 11:07:08,2018-12-05 11:07:12,3.576s,PASSED
+"text = getText(findTestObject(""Object Repository/Page_India population - Google Sear/div_133.92 crores (2017)""))",Firefox 63.0,,2018-12-05 11:07:12,2018-12-05 11:07:12,0.126s,PASSED

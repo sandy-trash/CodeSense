@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 63.0,,2018-12-05 11:11:00,2018-12-05 11:12:22,1m - 22.903s,FAILED
+,,,,,,
+Test Cases/TestCaseGoogle,Firefox 63.0,,2018-12-05 11:11:00,2018-12-05 11:11:15,15.347s,FAILED
+"openBrowser("""")",Firefox 63.0,,2018-12-05 11:11:01,2018-12-05 11:11:09,8.448s,PASSED
+"navigateToUrl(""https://www.google.com/?gws_rd=ssl"")",Firefox 63.0,,2018-12-05 11:11:09,2018-12-05 11:11:15,5.233s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input_Sign in_q""), ""India population"")",Firefox 63.0,,2018-12-05 11:11:15,2018-12-05 11:11:15,0.468s,PASSED
+"waitForElementPresent(findTestObject(""Page_Google/input_Remove_btnK""), 30)",Firefox 63.0,,2018-12-05 11:11:15,2018-12-05 11:11:15,0.120s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/input_Remove_btnK""))",Firefox 63.0,,2018-12-05 11:11:15,2018-12-05 11:11:15,0.282s,FAILED
+,,,,,,
+Test Cases/TestCaseWorldMap,Firefox 63.0,,2018-12-05 11:11:15,2018-12-05 11:12:14,58.422s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-05 11:11:16,2018-12-05 11:11:26,9.742s,PASSED
+"navigateToUrl(""http://www.worldometers.info/"")",Firefox 63.0,,2018-12-05 11:11:26,2018-12-05 11:11:49,22.884s,PASSED
+"click(findTestObject(""Page_Worldometers - real time world/a_Population""))",Firefox 63.0,,2018-12-05 11:11:49,2018-12-05 11:12:04,15.106s,PASSED
+"click(findTestObject(""Page_Population - Worldometers/strong_Population by Country""))",Firefox 63.0,,2018-12-05 11:12:04,2018-12-05 11:12:13,9.614s,PASSED
+"click(findTestObject(""Page_Population by Country (2018) -/td_India""))",Firefox 63.0,,2018-12-05 11:12:13,2018-12-05 11:12:14,0.556s,PASSED
+"text = getText(findTestObject(""Page_Population by Country (2018) -/td_1354051854""))",Firefox 63.0,,2018-12-05 11:12:14,2018-12-05 11:12:14,0.133s,PASSED
