@@ -1,64 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_1354051854</name>
+   <name>th_Population</name>
    <tag></tag>
-   <elementGuidId>fd8b7482-7ad8-460c-b6f7-5375dd7c1c3e</elementGuidId>
+   <elementGuidId>8e08db8c-4dad-451d-be95-1f4e869cb001</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='example2']/tbody/tr[2]/td[3]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;example2&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[3]</value>
+         <value>//div[@id='mw-content-text']/div/table/tbody/tr[34]/th</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
+      <value>th</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>colspan</name>
       <type>Main</type>
-      <value>1,354,051,854</value>
+      <value>2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Population</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;example2&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[3]</value>
+      <value>id(&quot;mw-content-text&quot;)/div[@class=&quot;mw-parser-output&quot;]/table[@class=&quot;infobox geography vcard&quot;]/tbody[1]/tr[@class=&quot;mergedtoprow&quot;]/th[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//table[@id='example2']/tbody/tr/td[3]</value>
+      <value>//div[@id='mw-content-text']/div/table/tbody/tr[34]/th</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='India'])[1]/following::td[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='• Water (%)'])[1]/following::th[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Worldometers'])[1]/preceding::td[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='[d]'])[1]/following::th[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='• 2016 estimate'])[1]/preceding::th[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//td[3]</value>
+      <value>//tr[34]/th</value>
    </webElementXpaths>
 </WebElementEntity>

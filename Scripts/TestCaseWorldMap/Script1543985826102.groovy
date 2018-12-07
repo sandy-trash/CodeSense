@@ -21,7 +21,17 @@ WebUI.click(findTestObject('Page_Worldometers - real time world/a_Population'))
 
 WebUI.click(findTestObject('Page_Population - Worldometers/strong_Population by Country'))
 
-WebUI.click(findTestObject('Page_Population by Country (2018) -/td_India'))
+WebUI.setText(findTestObject('Page_Population by Country (2018) -/input'), 'Cuba')
 
+try
+{
 text = WebUI.getText(findTestObject('Page_Population by Country (2018) -/td_1354051854'))
+System.out.println(text)
+}
+catch(Exception e)
+{
+	System.out.println("Population is not defined for country")
+}
+
+WebUI.closeBrowser()
 

@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 63.0,,2018-12-07 18:03:17,2018-12-07 18:06:13,2m - 55.597s,PASSED
+,,,,,,
+Test Cases/screenshot,Firefox 63.0,,2018-12-07 18:03:18,2018-12-07 18:04:13,55.338s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/Country""))",Firefox 63.0,,2018-12-07 18:03:18,2018-12-07 18:03:23,5.135s,PASSED
+list = JsonSlurper().parseText(response.getResponseText()),Firefox 63.0,,2018-12-07 18:03:23,2018-12-07 18:03:24,0.141s,PASSED
+countries = new java.util.ArrayList(),Firefox 63.0,list.each{println it},2018-12-07 18:03:24,2018-12-07 18:03:24,0.003s,PASSED
+names = name,Firefox 63.0,,2018-12-07 18:03:24,2018-12-07 18:03:24,0.015s,PASSED
+names.each({ -> ... }),Firefox 63.0,,2018-12-07 18:03:24,2018-12-07 18:03:24,0.054s,PASSED
+countries.each({ -> ... }),Firefox 63.0,,2018-12-07 18:03:24,2018-12-07 18:03:24,0.080s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-07 18:03:24,2018-12-07 18:03:33,8.931s,PASSED
+rand = new java.util.Random(),Firefox 63.0,,2018-12-07 18:03:33,2018-12-07 18:03:33,0.012s,PASSED
+i = 0,Firefox 63.0,,2018-12-07 18:03:33,2018-12-07 18:03:33,0.001s,PASSED
+"country = """"",Firefox 63.0,,2018-12-07 18:03:33,2018-12-07 18:03:33,0.001s,PASSED
+while ((i++) < 5),Firefox 63.0,,2018-12-07 18:03:33,2018-12-07 18:04:13,40.231s,PASSED
+,,,,,,
+Test Cases/TestCaseWikipedia,Firefox 63.0,,2018-12-07 18:04:13,2018-12-07 18:04:48,34.613s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-07 18:04:13,2018-12-07 18:04:33,19.352s,PASSED
+"navigateToUrl(""https://www.wikipedia.org/"")",Firefox 63.0,,2018-12-07 18:04:33,2018-12-07 18:04:35,1.960s,PASSED
+"setText(findTestObject(""Page_Wikipedia/input_Search Wikipedia_search""), ""France"")",Firefox 63.0,,2018-12-07 18:04:35,2018-12-07 18:04:35,0.059s,PASSED
+"click(findTestObject(""Page_Wikipedia/button_Search""))",Firefox 63.0,,2018-12-07 18:04:35,2018-12-07 18:04:42,7.304s,PASSED
+"scrollToElement(findTestObject(""Page_India - Wikipedia/th_Population""), 30)",Firefox 63.0,,2018-12-07 18:04:42,2018-12-07 18:04:42,0.076s,PASSED
+"text = getText(findTestObject(""Object Repository/Page_India - Wikipedia/td_132417135412 (2nd)""))",Firefox 63.0,,2018-12-07 18:04:42,2018-12-07 18:04:42,0.139s,PASSED
+closeBrowser(),Firefox 63.0,,2018-12-07 18:04:42,2018-12-07 18:04:48,5.295s,PASSED
+,,,,,,
+Test Cases/TestCaseWorldMap,Firefox 63.0,,2018-12-07 18:04:48,2018-12-07 18:05:57,1m - 9.371s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-07 18:04:48,2018-12-07 18:04:54,6.188s,PASSED
+"navigateToUrl(""http://www.worldometers.info/"")",Firefox 63.0,,2018-12-07 18:04:54,2018-12-07 18:05:15,21.339s,PASSED
+"click(findTestObject(""Page_Worldometers - real time world/a_Population""))",Firefox 63.0,,2018-12-07 18:05:15,2018-12-07 18:05:33,17.508s,PASSED
+"click(findTestObject(""Page_Population - Worldometers/strong_Population by Country""))",Firefox 63.0,,2018-12-07 18:05:33,2018-12-07 18:05:48,15.149s,PASSED
+"setText(findTestObject(""Page_Population by Country (2018) -/input""), ""Cuba"")",Firefox 63.0,,2018-12-07 18:05:48,2018-12-07 18:05:48,0.284s,PASSED
+"text = getText(findTestObject(""Page_Population by Country (2018) -/td_1354051854""))",Firefox 63.0,,2018-12-07 18:05:48,2018-12-07 18:05:49,0.300s,PASSED
+closeBrowser(),Firefox 63.0,,2018-12-07 18:05:49,2018-12-07 18:05:57,8.369s,PASSED
+,,,,,,
+Test Cases/TestCaseGoogle,Firefox 63.0,,2018-12-07 18:05:57,2018-12-07 18:06:13,15.815s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-07 18:05:57,2018-12-07 18:06:02,4.461s,PASSED
+"navigateToUrl(""https://www.google.com/search?source=hp&ei=8NUIXI2kMtCr5wK3kaJw&q=population"")",Firefox 63.0,,2018-12-07 18:06:02,2018-12-07 18:06:07,4.916s,PASSED
+"clearText(findTestObject(""Page_a - Google Search/input_Sign in_q""))",Firefox 63.0,,2018-12-07 18:06:07,2018-12-07 18:06:07,0.090s,PASSED
+"setText(findTestObject(""Object Repository/Page_a - Google Search/input_Sign in_q""), ""Hawaii population"")",Firefox 63.0,,2018-12-07 18:06:07,2018-12-07 18:06:07,0.202s,PASSED
+"click(findTestObject(""Object Repository/Page_a - Google Search/button_Sign in_Tg7LZd""))",Firefox 63.0,,2018-12-07 18:06:07,2018-12-07 18:06:09,2.353s,PASSED
+"text = getText(findTestObject(""Page_India population - Google Sear/div_133.92 crores (2017)""))",Firefox 63.0,,2018-12-07 18:06:09,2018-12-07 18:06:09,0.046s,PASSED
+closeBrowser(),Firefox 63.0,,2018-12-07 18:06:09,2018-12-07 18:06:13,3.522s,PASSED

@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//table[@id='example2']/tbody/tr[2]/td[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'India' or . = 'India')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

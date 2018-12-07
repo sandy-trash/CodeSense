@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="175" tests="4" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="4" failures="0" errors="0" time="175" timestamp="2018-12-07 18:03:17" hostname="ssengupta064 - ssengupta06486.us.nam.ad.pwcinternal.com" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ssengupta064\\git\\Project\\Reports\\New Test Suite\\20181207_180313"/>
+         <property name="logFiles" value="C:\\Users\\ssengupta064\\git\\Project\\Reports\\New Test Suite\\20181207_180313\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ssengupta064\\git\\Project\\Reports\\New Test Suite\\20181207_180313\\C:/Users/ssengupta064/Desktop/ss/Gabon.png, C:\\Users\\ssengupta064\\git\\Project\\Reports\\New Test Suite\\20181207_180313\\C:/Users/ssengupta064/Desktop/ss/Spain.png, C:\\Users\\ssengupta064\\git\\Project\\Reports\\New Test Suite\\20181207_180313\\C:/Users/ssengupta064/Desktop/ss/Malaysia.png, C:\\Users\\ssengupta064\\git\\Project\\Reports\\New Test Suite\\20181207_180313\\C:/Users/ssengupta064/Desktop/ss/Mozambique.png, C:\\Users\\ssengupta064\\git\\Project\\Reports\\New Test Suite\\20181207_180313\\C:/Users/ssengupta064/Desktop/ss/Greece.png"/>
+         <property name="hostName" value="ssengupta064 - ssengupta06486.us.nam.ad.pwcinternal.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Firefox 63.0"/>
+         <property name="hostAddress" value="10.27.34.191"/>
+         <property name="sessionId" value="691a54a9-0336-422d-b2cc-3428d73c58a0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/screenshot" classname="Test Cases/screenshot" status="PASSED">
+         <system-out><![CDATA[2018-12-07 18:03:18 - [TEST_CASE][PASSED] - Test Cases/screenshot: Test Cases/screenshot
+
+2018-12-07 18:03:18 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/Country")): Send request successfully
+
+2018-12-07 18:03:23 - [MESSAGE][INFO] - HAR: C:\Users\ssengupta064\git\Project\Reports\New Test Suite\20181207_180313\requests\main\0.har
+
+2018-12-07 18:03:23 - [MESSAGE][PASSED] - Send request successfully
+
+2018-12-07 18:03:23 - [TEST_STEP][PASSED] - list = JsonSlurper().parseText(response.getResponseText()): null
+
+2018-12-07 18:03:24 - [TEST_STEP][PASSED] - countries = new java.util.ArrayList(): null
+
+2018-12-07 18:03:24 - [TEST_STEP][PASSED] - names = name: null
+
+2018-12-07 18:03:24 - [TEST_STEP][PASSED] - names.each({ -> ... }): null
+
+2018-12-07 18:03:24 - [TEST_STEP][PASSED] - countries.each({ -> ... }): null
+
+2018-12-07 18:03:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-07 18:03:24 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2018-12-07 18:03:25 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-07 18:03:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-07 18:03:33 - [TEST_STEP][PASSED] - rand = new java.util.Random(): null
+
+2018-12-07 18:03:33 - [TEST_STEP][PASSED] - i = 0: null
+
+2018-12-07 18:03:33 - [TEST_STEP][PASSED] - country = "": null
+
+2018-12-07 18:03:33 - [TEST_STEP][PASSED] - while ((i++) < 5): Object: 'Object Repository/sh1/Page_Google Maps/button_See travel times traffi' is clicked on
+
+2018-12-07 18:03:33 - [TEST_STEP][PASSED] - randomIdx = rand.nextInt(countries.size()): null
+
+2018-12-07 18:03:33 - [TEST_STEP][PASSED] - country = countries.get(randomIdx): null
+
+2018-12-07 18:03:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/maps/@12.952476,77.647874,15z"): Navigate to 'https://www.google.com/maps/@12.952476,77.647874,15z' successfully
+
+2018-12-07 18:03:38 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/maps/@12.952476,77.647874,15z' successfully
+
+2018-12-07 18:03:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/sh1/Page_Google Maps/input_India_q"), country): Text 'Gabon' is set on object 'Object Repository/sh1/Page_Google Maps/input_India_q'
+
+2018-12-07 18:03:38 - [MESSAGE][PASSED] - Text 'Gabon' is set on object 'Object Repository/sh1/Page_Google Maps/input_India_q'
+
+2018-12-07 18:03:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb")): Object: 'Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb' is clicked on
+
+2018-12-07 18:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb' is clicked on
+
+2018-12-07 18:03:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_India - Google Maps/button_Directions")): Object: 'Object Repository/sh1/Page_India - Google Maps/button_Directions' is clicked on
+
+2018-12-07 18:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_India - Google Maps/button_Directions' is clicked on
+
+2018-12-07 18:03:45 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2018-12-07 18:03:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-07 18:03:45 - [TEST_STEP][PASSED] - takeScreenshot("C:/Users/ssengupta064/Desktop/ss/" + country + ".png"): Taking screenshot successfully
+
+2018-12-07 18:03:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ssengupta064\\git\\Project\\Reports\\New Test Suite\\20181207_180313\\C:/Users/ssengupta064/Desktop/ss/Gabon.png]]
+
+2018-12-07 18:03:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_Google Maps/button_See travel times traffi")): Object: 'Object Repository/sh1/Page_Google Maps/button_See travel times traffi' is clicked on
+
+2018-12-07 18:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_Google Maps/button_See travel times traffi' is clicked on
+
+2018-12-07 18:03:46 - [TEST_STEP][PASSED] - randomIdx = rand.nextInt(countries.size()): null
+
+2018-12-07 18:03:46 - [TEST_STEP][PASSED] - country = countries.get(randomIdx): null
+
+2018-12-07 18:03:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/maps/@12.952476,77.647874,15z"): Navigate to 'https://www.google.com/maps/@12.952476,77.647874,15z' successfully
+
+2018-12-07 18:03:47 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/maps/@12.952476,77.647874,15z' successfully
+
+2018-12-07 18:03:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/sh1/Page_Google Maps/input_India_q"), country): Text 'Spain' is set on object 'Object Repository/sh1/Page_Google Maps/input_India_q'
+
+2018-12-07 18:03:48 - [MESSAGE][PASSED] - Text 'Spain' is set on object 'Object Repository/sh1/Page_Google Maps/input_India_q'
+
+2018-12-07 18:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb")): Object: 'Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb' is clicked on
+
+2018-12-07 18:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb' is clicked on
+
+2018-12-07 18:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_India - Google Maps/button_Directions")): Object: 'Object Repository/sh1/Page_India - Google Maps/button_Directions' is clicked on
+
+2018-12-07 18:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_India - Google Maps/button_Directions' is clicked on
+
+2018-12-07 18:03:51 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2018-12-07 18:03:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-07 18:03:51 - [TEST_STEP][PASSED] - takeScreenshot("C:/Users/ssengupta064/Desktop/ss/" + country + ".png"): Taking screenshot successfully
+
+2018-12-07 18:03:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ssengupta064\\git\\Project\\Reports\\New Test Suite\\20181207_180313\\C:/Users/ssengupta064/Desktop/ss/Spain.png]]
+
+2018-12-07 18:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_Google Maps/button_See travel times traffi")): Object: 'Object Repository/sh1/Page_Google Maps/button_See travel times traffi' is clicked on
+
+2018-12-07 18:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_Google Maps/button_See travel times traffi' is clicked on
+
+2018-12-07 18:03:53 - [TEST_STEP][PASSED] - randomIdx = rand.nextInt(countries.size()): null
+
+2018-12-07 18:03:53 - [TEST_STEP][PASSED] - country = countries.get(randomIdx): null
+
+2018-12-07 18:03:53 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/maps/@12.952476,77.647874,15z"): Navigate to 'https://www.google.com/maps/@12.952476,77.647874,15z' successfully
+
+2018-12-07 18:03:54 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/maps/@12.952476,77.647874,15z' successfully
+
+2018-12-07 18:03:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/sh1/Page_Google Maps/input_India_q"), country): Text 'Malaysia' is set on object 'Object Repository/sh1/Page_Google Maps/input_India_q'
+
+2018-12-07 18:03:55 - [MESSAGE][PASSED] - Text 'Malaysia' is set on object 'Object Repository/sh1/Page_Google Maps/input_India_q'
+
+2018-12-07 18:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb")): Object: 'Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb' is clicked on
+
+2018-12-07 18:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb' is clicked on
+
+2018-12-07 18:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_India - Google Maps/button_Directions")): Object: 'Object Repository/sh1/Page_India - Google Maps/button_Directions' is clicked on
+
+2018-12-07 18:03:59 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_India - Google Maps/button_Directions' is clicked on
+
+2018-12-07 18:03:59 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2018-12-07 18:03:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-07 18:03:59 - [TEST_STEP][PASSED] - takeScreenshot("C:/Users/ssengupta064/Desktop/ss/" + country + ".png"): Taking screenshot successfully
+
+2018-12-07 18:03:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ssengupta064\\git\\Project\\Reports\\New Test Suite\\20181207_180313\\C:/Users/ssengupta064/Desktop/ss/Malaysia.png]]
+
+2018-12-07 18:03:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_Google Maps/button_See travel times traffi")): Object: 'Object Repository/sh1/Page_Google Maps/button_See travel times traffi' is clicked on
+
+2018-12-07 18:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_Google Maps/button_See travel times traffi' is clicked on
+
+2018-12-07 18:04:00 - [TEST_STEP][PASSED] - randomIdx = rand.nextInt(countries.size()): null
+
+2018-12-07 18:04:00 - [TEST_STEP][PASSED] - country = countries.get(randomIdx): null
+
+2018-12-07 18:04:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/maps/@12.952476,77.647874,15z"): Navigate to 'https://www.google.com/maps/@12.952476,77.647874,15z' successfully
+
+2018-12-07 18:04:01 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/maps/@12.952476,77.647874,15z' successfully
+
+2018-12-07 18:04:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/sh1/Page_Google Maps/input_India_q"), country): Text 'Mozambique' is set on object 'Object Repository/sh1/Page_Google Maps/input_India_q'
+
+2018-12-07 18:04:02 - [MESSAGE][PASSED] - Text 'Mozambique' is set on object 'Object Repository/sh1/Page_Google Maps/input_India_q'
+
+2018-12-07 18:04:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb")): Object: 'Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb' is clicked on
+
+2018-12-07 18:04:02 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb' is clicked on
+
+2018-12-07 18:04:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_India - Google Maps/button_Directions")): Object: 'Object Repository/sh1/Page_India - Google Maps/button_Directions' is clicked on
+
+2018-12-07 18:04:05 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_India - Google Maps/button_Directions' is clicked on
+
+2018-12-07 18:04:05 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2018-12-07 18:04:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-07 18:04:05 - [TEST_STEP][PASSED] - takeScreenshot("C:/Users/ssengupta064/Desktop/ss/" + country + ".png"): Taking screenshot successfully
+
+2018-12-07 18:04:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ssengupta064\\git\\Project\\Reports\\New Test Suite\\20181207_180313\\C:/Users/ssengupta064/Desktop/ss/Mozambique.png]]
+
+2018-12-07 18:04:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_Google Maps/button_See travel times traffi")): Object: 'Object Repository/sh1/Page_Google Maps/button_See travel times traffi' is clicked on
+
+2018-12-07 18:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_Google Maps/button_See travel times traffi' is clicked on
+
+2018-12-07 18:04:06 - [TEST_STEP][PASSED] - randomIdx = rand.nextInt(countries.size()): null
+
+2018-12-07 18:04:06 - [TEST_STEP][PASSED] - country = countries.get(randomIdx): null
+
+2018-12-07 18:04:06 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/maps/@12.952476,77.647874,15z"): Navigate to 'https://www.google.com/maps/@12.952476,77.647874,15z' successfully
+
+2018-12-07 18:04:07 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/maps/@12.952476,77.647874,15z' successfully
+
+2018-12-07 18:04:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/sh1/Page_Google Maps/input_India_q"), country): Text 'Greece' is set on object 'Object Repository/sh1/Page_Google Maps/input_India_q'
+
+2018-12-07 18:04:08 - [MESSAGE][PASSED] - Text 'Greece' is set on object 'Object Repository/sh1/Page_Google Maps/input_India_q'
+
+2018-12-07 18:04:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb")): Object: 'Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb' is clicked on
+
+2018-12-07 18:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_Google Maps/button_India_searchbox-searchb' is clicked on
+
+2018-12-07 18:04:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_India - Google Maps/button_Directions")): Object: 'Object Repository/sh1/Page_India - Google Maps/button_Directions' is clicked on
+
+2018-12-07 18:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_India - Google Maps/button_Directions' is clicked on
+
+2018-12-07 18:04:12 - [TEST_STEP][PASSED] - waitForPageLoad(50): Wait for page load successfully
+
+2018-12-07 18:04:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-07 18:04:12 - [TEST_STEP][PASSED] - takeScreenshot("C:/Users/ssengupta064/Desktop/ss/" + country + ".png"): Taking screenshot successfully
+
+2018-12-07 18:04:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ssengupta064\\git\\Project\\Reports\\New Test Suite\\20181207_180313\\C:/Users/ssengupta064/Desktop/ss/Greece.png]]
+
+2018-12-07 18:04:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sh1/Page_Google Maps/button_See travel times traffi")): Object: 'Object Repository/sh1/Page_Google Maps/button_See travel times traffi' is clicked on
+
+2018-12-07 18:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/sh1/Page_Google Maps/button_See travel times traffi' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCaseWikipedia" classname="Test Cases/TestCaseWikipedia" status="PASSED">
+         <system-out><![CDATA[2018-12-07 18:04:13 - [TEST_CASE][PASSED] - Test Cases/TestCaseWikipedia: Test Cases/TestCaseWikipedia
+
+2018-12-07 18:04:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-07 18:04:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-07 18:04:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2018-12-07 18:04:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-07 18:04:33 - [TEST_STEP][PASSED] - navigateToUrl("https://www.wikipedia.org/"): Navigate to 'https://www.wikipedia.org/' successfully
+
+2018-12-07 18:04:35 - [MESSAGE][PASSED] - Navigate to 'https://www.wikipedia.org/' successfully
+
+2018-12-07 18:04:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Wikipedia/input_Search Wikipedia_search"), "France"): Text 'France' is set on object 'Object Repository/Page_Wikipedia/input_Search Wikipedia_search'
+
+2018-12-07 18:04:35 - [MESSAGE][PASSED] - Text 'France' is set on object 'Object Repository/Page_Wikipedia/input_Search Wikipedia_search'
+
+2018-12-07 18:04:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Wikipedia/button_Search")): Object: 'Object Repository/Page_Wikipedia/button_Search' is clicked on
+
+2018-12-07 18:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Wikipedia/button_Search' is clicked on
+
+2018-12-07 18:04:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_India - Wikipedia/th_Population"), 30): Scroll to object 'Object Repository/Page_India - Wikipedia/th_Population' successfully
+
+2018-12-07 18:04:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_India - Wikipedia/th_Population' successfully
+
+2018-12-07 18:04:42 - [TEST_STEP][PASSED] - text = getText(findTestObject("Object Repository/Page_India - Wikipedia/td_132417135412 (2nd)")): Text of object 'Object Repository/Page_India - Wikipedia/td_132417135412 (2nd)' is: '67,348,000[5] (21st)'
+
+2018-12-07 18:04:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_India - Wikipedia/td_132417135412 (2nd)' is: '67,348,000[5] (21st)'
+
+2018-12-07 18:04:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-07 18:04:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCaseWorldMap" classname="Test Cases/TestCaseWorldMap" status="PASSED">
+         <system-out><![CDATA[2018-12-07 18:04:48 - [TEST_CASE][PASSED] - Test Cases/TestCaseWorldMap: Test Cases/TestCaseWorldMap
+
+2018-12-07 18:04:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-07 18:04:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2018-12-07 18:04:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-07 18:04:54 - [TEST_STEP][PASSED] - navigateToUrl("http://www.worldometers.info/"): Navigate to 'http://www.worldometers.info/' successfully
+
+2018-12-07 18:05:15 - [MESSAGE][PASSED] - Navigate to 'http://www.worldometers.info/' successfully
+
+2018-12-07 18:05:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Worldometers - real time world/a_Population")): Object: 'Object Repository/Page_Worldometers - real time world/a_Population' is clicked on
+
+2018-12-07 18:05:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Worldometers - real time world/a_Population' is clicked on
+
+2018-12-07 18:05:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Population - Worldometers/strong_Population by Country")): Object: 'Object Repository/Page_Population - Worldometers/strong_Population by Country' is clicked on
+
+2018-12-07 18:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Population - Worldometers/strong_Population by Country' is clicked on
+
+2018-12-07 18:05:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Population by Country (2018) -/input"), "Cuba"): Text 'Cuba' is set on object 'Object Repository/Page_Population by Country (2018) -/input'
+
+2018-12-07 18:05:48 - [MESSAGE][PASSED] - Text 'Cuba' is set on object 'Object Repository/Page_Population by Country (2018) -/input'
+
+2018-12-07 18:05:48 - [TEST_STEP][PASSED] - text = getText(findTestObject("Page_Population by Country (2018) -/td_1354051854")): Text of object 'Object Repository/Page_Population by Country (2018) -/td_1354051854' is: '11,489,082'
+
+2018-12-07 18:05:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Population by Country (2018) -/td_1354051854' is: '11,489,082'
+
+2018-12-07 18:05:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-07 18:05:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCaseGoogle" classname="Test Cases/TestCaseGoogle" status="PASSED">
+         <system-out><![CDATA[2018-12-07 18:05:57 - [TEST_CASE][PASSED] - Test Cases/TestCaseGoogle: Test Cases/TestCaseGoogle
+
+2018-12-07 18:05:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-07 18:05:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2018-12-07 18:06:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-07 18:06:02 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/search?source=hp&ei=8NUIXI2kMtCr5wK3kaJw&q=population"): Navigate to 'https://www.google.com/search?source=hp&ei=8NUIXI2kMtCr5wK3kaJw&q=population' successfully
+
+2018-12-07 18:06:07 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/search?source=hp&ei=8NUIXI2kMtCr5wK3kaJw&q=population' successfully
+
+2018-12-07 18:06:07 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_a - Google Search/input_Sign in_q")): Text of object 'Object Repository/Page_a - Google Search/input_Sign in_q' is cleared
+
+2018-12-07 18:06:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_a - Google Search/input_Sign in_q' is cleared
+
+2018-12-07 18:06:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_a - Google Search/input_Sign in_q"), "Hawaii population"): Text 'Hawaii population' is set on object 'Object Repository/Page_a - Google Search/input_Sign in_q'
+
+2018-12-07 18:06:07 - [MESSAGE][PASSED] - Text 'Hawaii population' is set on object 'Object Repository/Page_a - Google Search/input_Sign in_q'
+
+2018-12-07 18:06:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_a - Google Search/button_Sign in_Tg7LZd")): Object: 'Object Repository/Page_a - Google Search/button_Sign in_Tg7LZd' is clicked on
+
+2018-12-07 18:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_a - Google Search/button_Sign in_Tg7LZd' is clicked on
+
+2018-12-07 18:06:09 - [TEST_STEP][PASSED] - text = getText(findTestObject("Page_India population - Google Sear/div_133.92 crores (2017)")): Text of object 'Object Repository/Page_India population - Google Sear/div_133.92 crores (2017)' is: '1.428 million (2017)'
+
+2018-12-07 18:06:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_India population - Google Sear/div_133.92 crores (2017)' is: '1.428 million (2017)'
+
+2018-12-07 18:06:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-07 18:06:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-07 18:03:17 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/TestCaseGoogle]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

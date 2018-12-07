@@ -4,13 +4,19 @@
    <name>New Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-05T11:30:06</lastRun>
+   <lastRun>2018-12-07T18:03:13</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>cd7cdb62-b1c6-4d4b-b6ee-08466250a1e7</testSuiteGuid>
+   <testCaseLink>
+      <guid>d0fe6788-8fcd-4d51-a79f-0da3864d6d50</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/screenshot</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>3b41c660-6acc-4651-9f1d-2890512b5bbe</guid>
       <isReuseDriver>false</isReuseDriver>

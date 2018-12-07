@@ -15,13 +15,23 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.google.com/?gws_rd=ssl')
+WebUI.navigateToUrl('https://www.google.com/search?source=hp&ei=8NUIXI2kMtCr5wK3kaJw&q=population')
 
-WebUI.setText(findTestObject('Object Repository/Page_Google/input_Sign in_q'), 'India population')
+WebUI.clearText(findTestObject('Page_a - Google Search/input_Sign in_q'))
 
-WebUI.click(findTestObject('Object Repository/Page_Google/input_Remove_btnK'))
+WebUI.setText(findTestObject('Object Repository/Page_a - Google Search/input_Sign in_q'), 'Hawaii population')
 
-WebUI.waitForPageLoad(30)
+WebUI.click(findTestObject('Object Repository/Page_a - Google Search/button_Sign in_Tg7LZd'))
 
-text = WebUI.getText(findTestObject('Object Repository/Page_India population - Google Sear/div_133.92 crores (2017)'))
+try
+{
+text = WebUI.getText(findTestObject('Page_India population - Google Sear/div_133.92 crores (2017)'))
+System.out.println(text)
+}
+catch(Exception e)
+{
+	System.out.println("Population is not defined for country")
+}
+
+WebUI.closeBrowser()
 
